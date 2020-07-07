@@ -1,2 +1,6 @@
 repo: github.com/dhellmann/kubebuilder-experiment2
+resources:
+- group: metal3.io
+  kind: BareMetalHost
+  version: v1alpha1
 version: "2"
